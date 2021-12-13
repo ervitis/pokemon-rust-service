@@ -1,3 +1,8 @@
+use log::{info, Level, warn};
+
 fn main() {
-    println!("Hello, world!");
+    env_logger::init();
+
+    info!("hello");
+    warn!("hellooooo");
 }
